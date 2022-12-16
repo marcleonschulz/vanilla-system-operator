@@ -14,6 +14,7 @@ type CommonChecks struct {
 	FullBattery bool
 }
 
+// GetCommonChecks checks notwork and Battery
 func GetCommonChecks() *CommonChecks {
 	cChecks := CommonChecks{}
 
